@@ -122,6 +122,7 @@ def plotSingleDataRoseUnW(unW):
     ax.set_yticklabels([])
     plt.show()
     fig.savefig("UnWeighted.png")
+    fig.savefig("UnWeighted.svg", format='svg', dpi=1200)
     return
 
 def plotSingleDataRoseW1(W1):
@@ -140,6 +141,7 @@ def plotSingleDataRoseW1(W1):
     ax1.set_yticklabels([])
     plt.show()
     fig1.savefig("weighted1.png")
+    fig1.savefig("weighted1.svg", format'svg', dpi=1200)
     return
 
 def plotSingleDataRoseW2(W2):
@@ -157,6 +159,7 @@ def plotSingleDataRoseW2(W2):
     ax2.set_yticklabels([])
     plt.show()
     fig2.savefig("weighted2.png")
+    fig2.savefig("weighted2.svg",format='svg', dpi=1200)
     return
 
 
