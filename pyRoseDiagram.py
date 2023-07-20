@@ -97,7 +97,7 @@ def getHeaders(data):
     # # link function to change dropdown
     strike.trace('w',change_dropdown)
     weight.trace('w',change_dropdown)
-    closebutton = Button(root, text='QUIT', command=root.destroy)
+    closebutton = Button(root, text='CLOSE and proceed', command=root.destroy)
     closebutton.pack()
     root.mainloop()
     strike=strike.get()
@@ -141,7 +141,7 @@ def plotSingleDataRoseW1(W1):
     ax1.set_yticklabels([])
     plt.show()
     fig1.savefig("weighted1.png")
-    fig1.savefig("weighted1.svg", format'svg', dpi=1200)
+    fig1.savefig("weighted1.svg", format='svg', dpi=1200)
     return
 
 def plotSingleDataRoseW2(W2):
